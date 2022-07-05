@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1d2133;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h4{
+    font-size:1.5rem;
+    color:white;  
+    } 
+
+
+    /* CLASS ALL */
+
+    .thumbnail:hover{
+        transform:scale(1.2);
+        box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+        border-color: rgba(244, 239, 239, 0.8) !important; 
+        transition:all ease-out 2s !important;
+        
+    }
+    .thumbnail{
+        height:200px;
+        width:200px;
+        object-fit: contain;
+        place-items: center;
+        align-items: center;
+        border-radius: 10% !important;
+        box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,rgb(0 0 0 / 73%) 0px 16px 10px -10px !important;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        border: 3px solid rgba(42, 27, 27, 0.1) !important;
+    }
+    
+    
+    
+    /* CLASS ALL */
+
+/* All React Next */
+#all{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#react{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#next{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-section{
+    color:white;
+}
+
+
+.something{
+    height:auto;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contanier{
+    width:auto;
+    height: auto;
+}
+.content{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+} 
+
+@media (max-width: 1200px) {
+    .content{
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));}
+} 
+
+@media (max-width: 900px) {
+    .content{
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));}
+} 
+
+@media (max-width: 768px) {
+    .content{
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));}
+    
+} 
+
+@media (max-width: 575px) {
+    .content{
+        grid-gap: 10px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));}
+} 
+@media (max-width: 480px) {
+    .content{
+        grid-gap: 10px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));}
+} 
+@media (max-width: 360px) {
+    .content{
+        grid-gap:10px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));}
+} 
+
+.wrap{
+    height: 200px;
+    width:350px;
+    flex-wrap: wrap;
+    padding:10 10;
+    margin:10px;
+    left:2px;
+    right:2px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+}
+
+.wrap:hover {
+    box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+    transform: scale(1.05);
+    border-color: rgba(249, 249, 249, 0.8);
+}
+
+@media (max-width: 1200px) {
+    .wrap{
+ width: 350px;      
+} 
+}
+@media (max-width: 900px) {
+    .wrap{
+        width: 340px;
+} 
+}
+@media (max-width: 768px) {
+    .wrap{
+        width: 280px;
+    
+} 
+}
+@media (max-width: 575px) {
+    .wrap{
+        width: 260px;
+}
+} 
+@media (max-width: 480px) {
+    .wrap{
+        width: 240px;
+}
+} 
+@media (max-width: 360px) {
+    .wrap{
+        width: 200px; 
+} 
+}
+
+.webimage{
+        inset: 0px;
+        display: inline-block;
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        place-items: center;
+        position: absolute;
+        transition: opacity 500ms ease-in-out 0s;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+}
+#reactheader{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    place-items: center;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.heading:before{ content:''; height: 15px; width: 50px; border-radius: 5px;
+	margin: 0 auto 20px; display: block; background: #26a8e9; }
+/* All React Next */
+
+/* PORTFOLIO SECTION */
+
+.section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
+
+.section .heading{ margin-bottom: 60px; display: inline-block; }
+
+.section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
+	margin: 0 auto 20px; display: block; background: #FFA804; }
+.margin-b-80{ margin-bottom: 80px; }
+.margin-b-50{ margin-bottom: 50px; }
+
+
+/* PORTFOLIO SECTION */
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.some{
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:white;
+    margin: 20px;
+}
+.cont{
+    text-decoration: solid;
+    font-weight: 5rem;
+    flex: wrap;
+    margin: 20px;
+}
+
+.cont1{
+margin-left: 20px;
+}
+
+/* footer */
+  /* --------------------- */
+
+
+ 
+  .dashboard {
+	display: flex;
+  }
+  
+  svg {
+	width: 114px;
+	height: 114px;
+	margin: 1em;
+  }
+  .percentage{
+color:black;
+  }
+  .bg {
+	fill: none;
+	stroke-width: 10px;
+	stroke: #dce8ee;
+  }
+  
+  [class^="meter-"] {
+	fill: none;
+	stroke-width: 10px;
+	stroke-linecap: round;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	
+  }
+  
+  .meter-1 {
+	stroke-dasharray: 360;
+	stroke-dashoffset: 80;
+	stroke: rgb(205, 238, 17);
+	animation: progress-1 1.5s ease-out;
+  }
+  .meter-2 {
+	stroke: rgb(191, 69, 108);
+	stroke-dasharray: 360;
+	stroke-dashoffset: 75;
+	animation: progress-2 1.75s ease-out;
+  }
+  .meter-3 {
+	stroke: rgb(15, 163, 232);
+	stroke-dasharray: 360;
+	stroke-dashoffset: 100;
+	animation: progress-3 1.5s ease-out;
+  }
+  .meter-4 {
+	stroke: rgb(15, 232, 48);
+	stroke-dasharray: 360;
+	stroke-dashoffset: 50;
+	animation: progress-4 3s ease-out;
+  }
+  
+  @keyframes progress-1 {
+	  from {
+		  stroke-dashoffset: 360;
+	  }
+	  to {
+		  stroke-dashoffset: 80;
+	  }
+  }
+  
+  @keyframes progress-2 {
+	from {
+	  stroke-dashoffset: 360;
+	}
+	to {
+	  stroke-dashoffset: 75;
+	}
+  }
+  
+  @keyframes progress-3 {
+	from {
+	  stroke-dashoffset: 360;
+	}
+	to {
+	  stroke-dashoffset: 100;
+	}
+  }
+
+    
+  @keyframes progress-4 {
+	from {
+	  stroke-dashoffset: 360;
+	}
+	to {
+	  stroke-dashoffset: 50;
+	}
+  }
