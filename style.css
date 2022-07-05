@@ -227,6 +227,8 @@ footer{
     background-color: black;
     height: 100px;
     width: 100%;
+    left:0;
+    right:0;
 }
 
 .some{
@@ -241,11 +243,7 @@ footer{
     text-decoration: solid;
     font-weight: 5rem;
     flex: wrap;
-    margin: 20px;
-}
-
-.cont1{
-margin-left: 20px;
+    margin: 10px;
 }
 
 /* footer */
